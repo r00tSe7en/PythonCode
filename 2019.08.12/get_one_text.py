@@ -10,7 +10,7 @@ for file_name in files_name:
     for url in file:
         if '\n' not in url: #判断上一个文件的结尾行，没有换行符则添加
             url += '\n'
-        f_write.write(url) #吧文本行写入目标文件
+        f_write.write(url) #把文本行写入目标文件
 print("Enjoy your url.txt!")
 f_write.close()
 
