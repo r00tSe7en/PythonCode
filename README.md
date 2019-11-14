@@ -6,3 +6,5 @@
 2019.08.12 - get_one_text.py [批量整合同文件夹下多文件内容至url.txt]
 
 2019.08.16 - keep_session.py [cookie维持]
+
+2019.11.15 - 红日安全-Python渗透测试工具开发实战
