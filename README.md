@@ -7,6 +7,6 @@
 
 2019.08.16 - keep_session.py [cookie维持]
 
-2019.11.15 - Bypass_safedog_sql_exp.py [超长字符Bypass安全狗exp]
+2019.11.13 - Bypass_safedog_sql_exp.py [超长字符Bypass安全狗exp]
 
 2019.11.15 - 红日安全-Python渗透测试工具开发实战
