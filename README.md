@@ -10,3 +10,5 @@
 2019.11.13 - Bypass_safedog_sql_exp.py [超长字符Bypass安全狗exp]
 
 2019.11.15 - 红日安全-Python渗透测试工具开发实战
+
+2020.02.27 - nmap -oG 结果处理一键转 csv 
