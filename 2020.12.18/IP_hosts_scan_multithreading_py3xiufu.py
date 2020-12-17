@@ -27,8 +27,8 @@ def host_check(host_ip):
             try:
                 title = re.search('<title>(.*)</title>', res.text).group(1) #获取标题
             except Exception as ex:
-                title = u"Failed to get title!"
-            info = u'%s,%s,%s,Packet size:%d,Title:%s' % (ip,host,scheme+host,len(res.text),title)
+                title = "Failed to get title!"
+            info = '%s,%s,%s,Packet size:%d,Title:%s' % (ip,host,scheme+host,len(res.text),title)
             if lock.acquire():
                 try:
                     success_list.append(info)
@@ -47,7 +47,7 @@ def host_check(host_ip):
                 try:
                     # print ex.message
                     # logging.exception(ex)
-                    error = u"%s,%s,%s,Access failed!" % (ip,host, scheme+host)
+                    error = "%s,%s,%s,Access failed!" % (ip,host, scheme+host)
                     pbar.echo(error)
                 finally:
                     lock.release()
