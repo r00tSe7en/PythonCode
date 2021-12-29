@@ -14,6 +14,6 @@ def ipToC():
                 outFile.write(str(ip_c) + '\n')
                 ips.add(ip_c)
     outFile.close()
-    print '转换结束'
+    print('转换结束')
 if __name__ == '__main__':
     ipToC()
