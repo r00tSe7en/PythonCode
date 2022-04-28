@@ -18,3 +18,5 @@
 2020.12.16 - ipToc、cToip，适用各种掩码位数且自动去重
 
 2020.12.18 - Hosts_scan 多线程py3修正版
+
+2022.04.22 - md5(md5($password.$salt)) hash碰撞
