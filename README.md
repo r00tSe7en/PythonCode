@@ -20,3 +20,5 @@
 2020.12.18 - Hosts_scan 多线程py3修正版
 
 2022.04.22 - md5(md5($password.$salt)) hash碰撞
+
+2023.08.16 - GetMX.py [批量获取网站MX记录输出MD格式]
