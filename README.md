@@ -22,3 +22,5 @@
 2022.04.22 - md5(md5($password.$salt)) hash碰撞
 
 2023.08.16 - GetMX.py [批量获取网站MX记录输出MD格式]
+
+2024.11.15 - clearurls.py [处理httpx结果，过滤大量端口开放url]
